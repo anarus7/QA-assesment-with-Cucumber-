@@ -1,23 +1,15 @@
-
-## Run the tests
-### Use Maven
-
-Open a command window and run:
-
-    cd maven
-    ./mvnw test
-
-This runs Cucumber features using Cucumber's JUnit Platform Engine. The `Suite`
-annotation on the `RunCucumberTest` class tells JUnit to kick off Cucumber.
-
-### Use Gradle
-
-Open a command window and run:
-
-    cd gradle
-    ./gradlew test --rerun-tasks --info
-
-This runs Cucumber features using Cucumber's JUnit Platform Engine. The `Suite`
-annotation on the `RunCucumberTest` class tells JUnit to kick off Cucumber.
+ 
 
 
+Created a new project in Java using Selenium, JUnit and Cucumber for the following scenarios:
+
+Click a button and verify the outcome.
+
+Select a term from a dropdown list and verify that it is selected.
+
+Upload a file that is saved inside the project structure.
+
+Select a new date from the date picker and check that it was selected.
+
+for the  https://demoqa.com/ website
+ 
